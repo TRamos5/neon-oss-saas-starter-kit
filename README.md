@@ -100,6 +100,28 @@ I tried to label everything so it would be apparant, but if you have any questio
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. To deploy your application, go to Vercel and Login or Create an Account (I suggest using the Github OAuth Button to login)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. On your dashboard click on "New Project"
+
+3. Click on "Import" and select your repository that you created from the template.
+
+4. In the Configure Project section, paste your environment variables from your `.env.local` file into the Vercel Environment Variables section. You should only have one at this point which is `DATABASE_URL`.
+
+5. Once that is set, click on "Deploy" and wait for the project to deploy.
+
+### To Activate Analytics
+
+1. From your deployed projects dashboard in Vercel click on "Analytics"
+
+2. Once there click "Enable" and choose the first option that says "Included in your plan" (Don't worry, it's free!)
+
+3. Since your going off the template, the "Get Started" steps will have already been taken care of for you and the `@vercel/analytics` package will be included in your dependencies from step 2.
+
+### To Activate Speed Insights
+
+1. From your deployed projects dashboard in Vercel click on "Speed Insights"
+
+2. Click on "Enable"
+
+If you run into any issues, checkout the [Vercel Docs](https://vercel.com/docs/frameworks/nextjs?utm_source=next-site&utm_medium=docs&utm_campaign=next-website) for more information or reach out to me!
