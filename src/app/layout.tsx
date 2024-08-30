@@ -1,5 +1,6 @@
 import "@/styles/globals.css";
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react";
 
 import { siteConfig } from "@/config/site";
 import { fontSans } from "@/lib/fonts";
@@ -46,6 +47,7 @@ export default function RootLayout({
 					{/* Helpful widget to see what size screen your browser is */}
 					{/* <TailwindIndicator /> */}
 				</ThemeProvider>
+				<Analytics />
 			</body>
 		</html>
 	);
