@@ -5,12 +5,12 @@ This is a github template built using the following below with links to there re
 - [Neon.tech](https://neon.tech/) for the PostgresSQL Database (Serverless Version)
 - [Next.js](https://nextjs.org/) (App router)
 - [Drizzle ORM](https://orm.drizzle.team/)
-- [Light / Dark Mode](https://next-themes.mxs.dev/)
+- Light / Dark Mode
 - [Bun](https://bun.sh/)
 - [Lucia Auth](https://github.com/lucia-auth/lucia) for Authentication
 - [Vercel](https://vercel.com/) for Hosting
 - [Vercel Analytics](https://vercel.com/analytics)
-- [Vercel Speed Insight](https://vercel.com/docs/products/speed-insights)
+- Vercel Speed Insight
 - [ShadCN](https://ui.shadcn.com/) for UI
 - [Tailwind CSS](https://tailwindcss.com/) for Styling
 - [Typescript](https://www.typescriptlang.org/) (of course)
@@ -79,7 +79,7 @@ END $$;
 
 ## Finding Your Way Around The Project
 
-The project is structured with everything you needbesides your drizzle migrations being under `src`.
+The project is structured with everything you need besides your drizzle migrations being under `src`.
 
 Structure Under `src`:
 
